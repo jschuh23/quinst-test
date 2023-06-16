@@ -48,3 +48,28 @@ input,
 button {
     font: inherit;
 }
+/* ------------------------------
+BODY STYLES 
+--------------------------------*/
+body {
+    background-image: url(./img/bg.png);
+}
+
+/* ------------------------------
+CONTENT WRAPPER 
+--------------------------------*/
+.content-wrapper {
+    padding: 0 15px;
+}
+
+/* ------------------------------
+PRIMARY SITE HEADER 
+--------------------------------*/
+.page__header {
+    padding: 22px 15px;
+    background-color: #545253;
+}
+
+.page__header--logo {
+    margin: 0 auto;
+}
