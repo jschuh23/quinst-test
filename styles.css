@@ -1,0 +1,50 @@
+/*----------------------------
+	Screen Reader only - visually hidden H1 and form labels
+----------------------------*/
+.sr-only {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: auto;
+    left: -10000px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+}
+
+/* ------------------------------
+BASE RESET 
+--------------------------------*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Allow percentage based heights in the application as 100vh will take up more than 100% of the screen on mobile devices */
+/* html,
+body {
+    height: 100%;
+} */
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button {
+    font: inherit;
+}
