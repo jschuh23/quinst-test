@@ -8,25 +8,24 @@
     </head>
     <body>
         <header class="page__header">
-            <h1 class="sr-only">
-                Nest Learning Thermostat contest entry form
-            </h1>
+            <h1 class="sr-only">Nest Learning Thermostat contest entry form</h1>
             <img
-            class="page__header--logo"
-            src="./img/Logo.png"
-            alt="Modernize Logo"
+                class="page__header--logo"
+                src="./img/Logo.png"
+                alt="Modernize Logo"
             />
         </header>
         <div class="content-wrapper">
             <main>
-                <article>
-                    <header>
+                <article class="contest">
+                    <header class="contest__header">
                         <h2>
                             Enter to win a 3rd generation Nest Learning
                             Thermostat worth $249.
                         </h2>
                     </header>
                     <form
+                        class="contest__form"
                         action="https://formsws-hilstaging-com-0adj9wt8gzyq.runscope.net/solar"
                         method="post"
                     >
@@ -34,18 +33,20 @@
                             <div>
                                 <label class="sr-only" for="name">Name</label>
                                 <input
+                                    class="contest__form--input"
                                     id="name"
                                     type="text"
                                     name="name"
                                     placeholder="Name"
                                 />
                             </div>
-                            <div>
+                            <div class="input-flex">
                                 <div>
                                     <label class="sr-only" for="city"
                                         >City</label
                                     >
                                     <input
+                                        class="contest__form--input"
                                         id="city"
                                         type="text"
                                         name="city"
@@ -57,6 +58,7 @@
                                         >State</label
                                     >
                                     <input
+                                        class="contest__form--input"
                                         id="state"
                                         type="text"
                                         name="state"
@@ -69,6 +71,7 @@
                                     >Phone Number</label
                                 >
                                 <input
+                                    class="contest__form--input"
                                     id="phone"
                                     type="tel"
                                     name="phone"
@@ -80,11 +83,20 @@
                                     >Email Address</label
                                 >
                                 <input
+                                    class="contest__form--input"
                                     id="email"
                                     type="email"
                                     name="email"
                                     placeholder="Email Address"
                                 />
+                            </div>
+                            <div class="button-flex">
+                                <button
+                                    class="contest__form--button"
+                                    type="submit"
+                                >
+                                    Enter to win
+                                </button>
                             </div>
                         </div>
                     </form>
