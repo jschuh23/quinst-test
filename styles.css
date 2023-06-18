@@ -158,11 +158,14 @@ ADVERTORIAL
 }
 
 .advertorial legend {
+    width: auto;
+    max-width: 200px;
+    margin: 0 auto;
     padding: 0 20px;
     font-size: 0.9375rem;
     line-height: 1;
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .advertorial__content {
@@ -224,6 +227,7 @@ MEDIA QUERIES
     }
 
     .advertorial legend {
+        max-width: 280px;
         padding: 0 60px;
     }
 }
