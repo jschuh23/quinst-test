@@ -34,6 +34,7 @@ body {
     font-weight: normal;
     line-height: 1.5;
     background-image: url(./img/bg.png);
+    color: #545253;
 }
 
 * {
@@ -48,6 +49,11 @@ img {
 input,
 button {
     font: inherit;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
 }
 
 /* ------------------------------
@@ -143,6 +149,56 @@ CONTEST FORM
 }
 
 /* ------------------------------
+ADVERTORIAL 
+--------------------------------*/
+.advertorial {
+    max-width: 404px;
+    margin: 0 auto;
+}
+
+.advertorial fieldset {
+    border: 2px solid #a0bc57;
+}
+
+.advertorial legend {
+    padding: 0 20px;
+    font-size: 0.9375rem;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advertorial__content {
+    margin: 15px;
+    padding: 11px 15px 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.advertorial__content--header p.header-highlight {
+    font-size: 0.75rem;
+    color: #a0bc57;
+    text-transform: uppercase;
+}
+
+.advertorial__content--header h2 {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.advertorial__content p {
+    font-size: 0.875rem;
+    line-height: 1.2;
+}
+
+.advertorial__content p > a.read-more {
+    color: #6eb7c2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ------------------------------
 MEDIA QUERIES 
 --------------------------------*/
 @media (min-width: 767px) {
@@ -164,5 +220,14 @@ MEDIA QUERIES
 
     .contest__form--button {
         flex-basis: 60%;
+    }
+
+    .advertorial__content {
+        margin: 15px 20px;
+        padding: 11px 20px 64px;
+    }
+
+    .advertorial legend {
+        padding: 0 60px;
     }
 }
