@@ -1,6 +1,7 @@
 # QuinStreet home test
 
 Home technical test for the Frontend Developer position with QuinStreet.
+Please view my site [here](https://jschuh23.github.io/quinst-test/).
 
 ## General Requirements:
 
@@ -28,6 +29,14 @@ Home technical test for the Frontend Developer position with QuinStreet.
 
 ## Time to Complete
 
+It took me about 5 hours to complete the HTML, CSS, and mobile responsiveness of the site. I spent close to 15 hours total researching the JavaScript requirements.
+
 ## What took the most time, what was tricky?
 
+I have never written JavaScript in production and consider myself to be very new to the language. I've been working my way through several online courses, but have yet to really write true JavaScript code resulting in functionality on a website. I researched for many hours how best to accomplish the JavaScript requirements of this test and was only successful at finding working code for the phone mask. I attempted some code for changing the color of the input border on error, but the code was not working. I read numerous articles/blogs/MDN docs all in an attempt to come up with a solution, but found them challenging to understand with my limited JavaScript skills. I also didn't want to only use code written by other individuals, especially if I was unclear on the purpose behind the code.
+
+This is an area where I hope to continue learning so I can become a better all-around developer.
+
 ## Final thoughts or comments
+
+I found this test to be very challenging, but overall enjoyed the process. It was fun to get back into hand coding a project as I've spent the past couple years working in WordPress. Even though those years have involved writing a lot of CSS, it was nice to get back into HTML to structure a site. The most difficult and frustrating part of the test was the JavaScript as this language is still very new to me. However, I did learn a lot as I was researching how to try and accomplish the different test requirements. Thank you for the opportunity!
